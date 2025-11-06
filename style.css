@@ -610,6 +610,9 @@ footer{
   .wear-item{
     padding: 40px;
   }
+  .slider{
+    height: 500px;
+  }
 }
 @media (min-width: 10px) and (max-width: 760px){
     .wear-holder {
@@ -719,9 +722,16 @@ footer{
   }
   main{
     margin-top: 35px;
-}
-.wear{
+  }
+  .wear{
     padding: 20px;
     margin-bottom: 30px;
-}
+  }
+  header{
+    justify-content: center;
+     gap: 100px;
+  }
+  .slider{
+    height: 400px;
+  }
 }
